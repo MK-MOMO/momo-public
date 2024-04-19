@@ -3,7 +3,9 @@
 {
 "FROM":
 [
-"ZTESTK_CSD02"
+"I_MATERIAL",
+"VBAK",
+"VBAP"
 ],
 "ASSOCIATED":
 [],

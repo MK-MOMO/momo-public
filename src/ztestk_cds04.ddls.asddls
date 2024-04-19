@@ -1,9 +1,10 @@
-@AbapCatalog.sqlViewName: 'ZTESTK_MK004'
+@AbapCatalog.sqlViewName: 'ZTESTKCDS04'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #NOT_REQUIRED
 @EndUserText.label: 'CDSVIEW04'
-define view ZTESTK_CSD04 as select from I_SalesDocumentBasic {
+//標準CDSVIEWの参照
+define view ZTESTK_CDS04 as select from I_SalesDocumentBasic {
 key SalesDocument,
 SDDocumentCategory,
 SalesDocumentType,
